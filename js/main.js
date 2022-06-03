@@ -96,17 +96,18 @@ function lauguesus() {
 
 }
 function gotohome() {
-    document.getElementById("gotohome").style.backgroundColor = "#df005b";
-    document.getElementById("gotoinfo").style.backgroundColor = "white";
     window.scrollTo({
         top: 0,
         behavior: 'smooth',
     });
 }
+function howtoplay() {
+    window.scrollTo({
+        top: 2000,
+        behavior: 'smooth',
+    });
+}
 function gotoinfo() {
-    document.getElementById("gotoinfo").style.backgroundColor = "#df005b";
-    document.getElementById("gotohome").style.backgroundColor = "white";
-
     window.scrollTo({
         top: 1000,
         behavior: 'smooth',
