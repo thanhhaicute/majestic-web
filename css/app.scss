@@ -386,7 +386,7 @@ li{
             }
             .content{
                 width: 69vh;
-                height: 60vh;
+                height: 30vh;
                 position: absolute;
                 top: 28vh;
                 font-size: 20.0064px;
@@ -403,6 +403,20 @@ li{
                     position: absolute;
                 }
                 
+            }
+            .btn-play{
+                position: absolute;
+                width: 530px;
+                top:55vh;
+                height: 77px;
+                margin: 39.9936px 0px 0px;
+                font-size: 30.0096px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #ac0046;
+                color: white;
+                cursor: pointer;
             }
         }
     }
