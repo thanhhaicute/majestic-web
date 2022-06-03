@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Majestic V - The largest GTA 5 RP project, providing a comfortable game for over 5000 players.">
+    <meta name="keywords"
+        content="RolePlay, Role Play, RP, GTA 5, GTA V, GTA 5 RP, RP, Role Play, Booster Server, GTA 5, GTA 5 R,P, Multiplayer, online, Voice chat, High online, unique mod, stable voice, voice chat, RAGE MP, RAGE MP, rage gta 5, Majestic, Majestic RP, Majestic Role Play, Majestic rp, Majestic Role Play, Majestic GTA 5 rp, Majestic, Majestic">
+    <meta name="theme-color" content="#FF0068">
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./css/strollbar.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="shortcut icon" href="./images/home/main/vn/person.webp" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Majestic V | Máy chủ RolePlay độc nhất Việt Nam</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="wapper">
+                <div class="logo">
+                    <img src="./images/logo.svg" width="150px" height="49px" alt="logo" />
+                </div>
+
+                <div class="navbar">
+                    <div class="nav" onclick="handleClickForum()">
+                        <a href="#">
+                            <i class="fa-solid fa-message"></i>
+                            <span id="text_diendan">DIỄN ĐÀN</span>
+                        </a>
+                    </div>
+                    <div class="nav" onclick="handleClickShop()">
+                        <a href="#">
+                            <i class="fa-solid fa-shop"></i>
+                            <span id="text_cuahang">CỬA HÀNG</span>
+                        </a>
+                    </div>
+                    <div class="nav" onclick="handleClickLaugues()"><a href="#">
+                            <img id="flag" src="./images/lauguges/vn.png" alt="logo" />
+                            <span id="text_laugues" class="text_laugues">VIETNAM</span>
+                        </a>
+                    </div>
+                    <div class="laugues" id="laugues">
+                        <div class="box">
+                            <span onclick="lauguesvn()"><img src="./images/lauguges/vn.png" alt="logo" />VIỆT NAM</span>
+                            <span onclick="lauguesus()"><img src="./images/lauguges/en.svg" alt="logo" />ENGLISH</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-mobile">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+
+        </header>
+
+        <div class="info">
+            <div class="grid">
+                <img src="./images/home/main/grid.webp" alt="logo" />
+            </div>
+            <div class="effect">
+                <img src="./images/home/main/vn/background-effect.webp" alt="logo" />
+            </div>
+            <div class="logo">
+                <img src="./images/home/main/majestic.svg" alt="logo" />
+            </div>
+            <div class="person">
+                <img src="./images/home/main/vn/person.webp" alt="logo" />
+            </div>
+
+            <div class="btn-cricle">
+                <div class="cricle" id="gotohome" onclick="gotohome()"></div>
+                <div class="cricle" id="gotoinfo" onclick="gotoinfo()"></div>
+                <div class="cricle"></div>
+                <div class="cricle"></div>
+            </div>
+            <div class="count-player">
+                <span>12</span>
+            </div>
+            <div class="btn-info">
+                <div class="btn-down" id="btn-down">TẢI RAGEMP</div>
+                <div class="btn-res" id="btn-res">ĐĂNG KÝ</div>
+            </div>
+            <div class="social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-discord"></i>
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+
+            <div class="box-list">
+                <div class="text">Server 1</div>
+                <div class="right">
+                    <div class="number">12</div>
+                    <i class="fa-solid fa-user-group"></i>
+                    <div class="active"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="person">
+                <img src="./images/home/about/person.webp" </div>
+            </div>
+            <div class="description">
+                <h2 id="freedom-title">TỰ DO LỰA CHỌN</h2>
+                <h2 id="independent-title">SỰ ĐỘC LẬP</h2>
+                <h2 id="quality-title">CHẤT LƯỢNG TRÒ CHƠI</h2>
+                <div class="box">
+                    <div id="freedom-box" onclick="freedom()">TỰ DO LỰA CHỌN</div>
+                    <div id="independent-box" onclick="independent()">SỰ ĐỘC LẬP</div>
+                    <div id="quality-box" onclick="quality()">CHẤT LƯỢNG TRÒ CHƠI</div>
+
+
+                </div>
+                <div class="content">
+                    <span id="freedom">
+                        Thực hiện các quy tắc của bạn, trở thành người chơi có ảnh hưởng nhất trên máy chủ GTA 5 RP. Tập
+                        hợp
+                        một băng đảng hoặc một tổ chức tội phạm lại với nhau. Bắt đầu đóng vai kẻ xấu: bắt cóc người,
+                        tống
+                        tiền, hoàn thành nhiệm vụ, đột kích và cướp của.
+                        <p></p>
+                        Nhưng bất cứ lúc nào bạn có thể đi về phía tươi sáng. Là người đứng đầu an ninh, giữ gìn trật tự
+                        trong tiểu bang. Tổ chức các cuộc đột kích vào các khu vực tội phạm, mở các băng nhóm và tiến
+                        hành
+                        các cuộc truy bắt RP cao cấp của những người có ảnh hưởng lớn nhất trong bang.
+                    </span>
+                    <span id="independent">
+                        Mệt mỏi với những cuộc tranh giành tội phạm và sự quấy rối liên tục của cảnh sát, nhưng bạn
+                        không
+                        thích tuân theo luật và tìm hiểu điều lệ? Bắt đầu làm việc cho chính mình! Kiếm tiền trên xe bán
+                        tải, xe tải hoặc máy kéo của riêng bạn. Trở thành người vận chuyển hàng hóa độc lập, nhận mức
+                        lương
+                        xứng đáng cho công việc của bạn.
+                        <p></p>
+                        Nhưng đó không phải là tất cả. Bạn có thể mua doanh nghiệp của riêng mình trong thế giới GTA và
+                        ngừng hoạt động, tiền sẽ tự đến tài khoản của bạn. Điều chính là kiểm soát số lượng hàng hóa
+                        trong
+                        kho và để mắt đến đối thủ cạnh tranh.
+                    </span>
+                    <span id="quality">
+                        Majestic V - một mod trò chơi độc đáo được viết từ đầu. Bao gồm các giải pháp kỹ thuật tốt nhất,
+                        trình bày trực quan dễ chịu và quan trọng nhất - nhiều lựa chọn cơ hội.
+                        <p></p>
+                        Mục tiêu của chúng tôi là cung cấp cho người chơi một máy chủ GTA 5 RP duy nhất để có một trò
+                        chơi
+                        thoải mái và một thú tiêu khiển thú vị với bạn bè
+                    </span>
+                </div>
+            </div>
+        </div>
+        <script src="./js/main.js"></script>
+        <script src="./js/mobile.js"></script>
+
+</body>
+
+</html>
