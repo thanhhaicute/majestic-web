@@ -59,6 +59,29 @@ function lauguesvn() {
 
     document.getElementById("btn-play").innerHTML = "CHƠI NGAY";
 
+    document.getElementById("howto-h2").innerHTML = "LÀM THẾ NÀO ĐỂ CHƠI";
+    document.getElementById("howto-p").innerHTML = `GTA 5 RP là một cấp độ mới của trò chơi trực tuyến. Vào vai một tên cướp hoặc một
+    cảnh sát, một
+    quan chức hoặc một bác sĩ, một tên mafia hoặc một nhân viên FBI. Trải nghiệm bầu không khí của
+    thế giới game nhập vai tuyệt vời với thế giới thực tế của GTA 5 trên máy chủ Majestic Role Play!`;
+
+
+
+    document.getElementById("b1-btn").innerHTML = "Mua GTA 5";
+    document.getElementById("b2-btn").innerHTML = "Tải RAGEMP";
+    document.getElementById("b3-btn").innerHTML = "Chơi ngay";
+
+    document.getElementById("b1").innerHTML = "Bước 1";
+    document.getElementById("b2").innerHTML = "Bước 1";
+    document.getElementById("b3").innerHTML = "Bước 1";
+
+    document.getElementById("b1-h3").innerHTML = "Cài đặt GTA 5 được cấp phép";
+    document.getElementById("b2-h3").innerHTML = "Cài đặt Trình khởi chạy RAGEMP";
+    document.getElementById("b3-h3").innerHTML = "Chọn Máy chủ GTA 5 RP";
+
+    document.getElementById("b1-p").innerHTML = "Bất kỳ phiên bản nào của GTA 5 (Steam, Epic hoặc Social Club) đều phù hợp để chơi trên máy chủ";
+    document.getElementById("b2-p").innerHTML = "Để kết nối ngay lập tức với máy chủ yêu thích của bạn";
+    document.getElementById("b3-p").innerHTML = "Có một số máy chủ trò chơi trong dự án của chúng tôi. Chọn một trong những phù hợp với bạn";
 }
 function lauguesus() {
     document.getElementById("text_cuahang").innerHTML = "STORE";
@@ -93,7 +116,24 @@ function lauguesus() {
 
     document.getElementById("btn-play").innerHTML = "PLAY NOW";
 
+    document.getElementById("howto-h2").innerHTML = "HOW TO START PLAYING ";
+    document.getElementById("howto-p").innerHTML = `GTA 5 RP is a new level of online games. Play as a bandit or a policeman, an official or a medic, a mafia or an FBI employee. Experience the atmosphere of the amazing world of role-playing games with the realistic world of GTA 5 on the Majestic Role Play server!`;
 
+    document.getElementById("b1-btn").innerHTML = "Buy GTA 5";
+    document.getElementById("b2-btn").innerHTML = "Download RAGEMP";
+    document.getElementById("b3-btn").innerHTML = "Play on the server";
+
+    document.getElementById("b1").innerHTML = "Step 1";
+    document.getElementById("b2").innerHTML = "Step 2";
+    document.getElementById("b3").innerHTML = "Step 3";
+
+    document.getElementById("b1-h3").innerHTML = "Install licensed GTA 5";
+    document.getElementById("b2-h3").innerHTML = "Install the Majestic Launcher";
+    document.getElementById("b3-h3").innerHTML = "Select GTA 5 RP Server";
+
+    document.getElementById("b1-p").innerHTML = "Any version of GTA 5 (Steam, Epic or Social Club) is suitable for playing on the server";
+    document.getElementById("b2-p").innerHTML = "To instantly connect to your favorite server";
+    document.getElementById("b3-p").innerHTML = "There are several game servers on our project. Choose the one that is right for you";
 }
 function gotohome() {
     window.scrollTo({
@@ -110,6 +150,12 @@ function howtoplay() {
 function gotoinfo() {
     window.scrollTo({
         top: 1000,
+        behavior: 'smooth',
+    });
+}
+function footer() {
+    window.scrollTo({
+        top: 3300,
         behavior: 'smooth',
     });
 }

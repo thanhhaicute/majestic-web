@@ -38,9 +38,11 @@ li{
 .container{
     scroll-behavior: smooth;
     width: 100%;
-    height: 400vh;
+    height: 430vh;
+    overflow: hidden;
     background-color: #000000;
     header{
+        z-index: 10000000;
         width: 100%;
         height: 88px;
         display: flex;
@@ -496,6 +498,66 @@ li{
                     
                 }
             }
+        }
+    }
+    .howtorp{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        top: 55vh;
+        display: grid;
+        grid-gap:50px;
+        grid-template-columns: 1fr 1fr;
+        background-image: url(../images/person.webp);
+        background-size: cover;
+        .box-1{
+            h2{
+                color: #ce165f;
+                font-weight: 700;
+                font-size: 45.0048px;
+            }
+            width: fit-content;
+            height:  fit-content;
+            font-size: 14.9952px;
+            background-color: #1a1215;
+            padding: 20px;
+
+        }
+        .box-2{
+            h2{
+                color: #ce165f;
+                font-weight: 700;
+                font-size: 45.0048px;
+            }
+            background-color: #1a1215;
+            padding: 20px;
+            width: fit-content;
+            height:  fit-content;
+            font-size: 14.9952px;
+        }
+    }
+    footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        top: 150vh;
+        color: white;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        background-color: #0c0b0b;
+        height: 20vh;
+        background-image: url(../images/home/main/vn/background-effect.webp);
+        .andres{
+            img{
+                display: block;
+                width: 100px;
+            }
+        }
+        .contact{
+            width: 40vh;
+            display: flex;
+            justify-content: space-between;
         }
     }
 }

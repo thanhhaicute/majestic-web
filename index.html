@@ -79,7 +79,7 @@
                 <div class="cricle" id="gotohome" onclick="gotohome()"></div>
                 <div class="cricle" id="gotoinfo" onclick="gotoinfo()"></div>
                 <div class="cricle" id="howtoplay" onclick="howtoplay()"></div>
-                <div class="cricle"></div>
+                <div class="cricle" id="footer" onclick="footer()"></div>
             </div>
             <div class="count-player">
                 <span>12</span>
@@ -159,8 +159,9 @@
         <div class="howto">
             <div class="top">
                 <div class="left">
-                    <h2>LÀM THẾ NÀO ĐỂ CHƠI</h2>
-                    <p>GTA 5 RP là một cấp độ mới của trò chơi trực tuyến. Vào vai một tên cướp hoặc một cảnh sát, một
+                    <h2 id="howto-h2">LÀM THẾ NÀO ĐỂ CHƠI</h2>
+                    <p id="howto-p">GTA 5 RP là một cấp độ mới của trò chơi trực tuyến. Vào vai một tên cướp hoặc một
+                        cảnh sát, một
                         quan chức hoặc một bác sĩ, một tên mafia hoặc một nhân viên FBI. Trải nghiệm bầu không khí của
                         thế giới game nhập vai tuyệt vời với thế giới thực tế của GTA 5 trên máy chủ Majestic Role Play!
                     </p>
@@ -168,40 +169,76 @@
                 <div class="bottom">
                     <div class="box">
                         <div class="title">
-                            <h1>Bước 1</h1>
+                            <h1 id="b1">Bước 1</h1>
                             <img src="./images/home/instruction/steps/gta.webp" />
                         </div>
-                        <h3>Cài đặt GTA 5 được cấp phép</h3>
-                        <p>Bất kỳ phiên bản nào của GTA 5 (Steam, Epic hoặc Social Club) đều phù hợp để chơi trên máy
+                        <h3 id="b1-h3">Cài đặt GTA 5 được cấp phép</h3>
+                        <p id="b1-p">Bất kỳ phiên bản nào của GTA 5 (Steam, Epic hoặc Social Club) đều phù hợp để chơi
+                            trên máy
                             chủ.</p>
-                        <button>Mua GTA 5</button>
+                        <button id="b1-btn">Mua GTA 5</button>
 
                     </div>
                     <div class="box">
                         <div class="title">
-                            <h1>Bước 1</h1>
+                            <h1 id="b2">Bước 2</h1>
                             <img src="./images/home/instruction/steps/rage.webp" />
                         </div>
-                        <h3>Cài đặt Trình khởi chạy RAGEMP</h3>
-                        <p>To instantly connect to your favorite server.</p>
-                        <button>Tải RAGEMP</button>
+                        <h3 id="b2-h3">Cài đặt Trình khởi chạy RAGEMP</h3>
+                        <p id="b2-p">Để kết nối ngay lập tức với máy chủ yêu thích của bạn.</p>
+                        <button id="b2-btn">Tải RAGEMP</button>
                     </div>
                     <div class="box">
                         <div class="title">
-                            <h1>Bước 1</h1>
+                            <h1 id="b3">Bước 3</h1>
                             <img src="./images/home/instruction/steps/search.webp" />
                         </div>
-                        <h3>Chọn Máy chủ GTA 5 RP</h3>
-                        <p>Có một số máy chủ trò chơi trong dự án của chúng tôi. Chọn một trong những phù hợp với bạn..
+                        <h3 id="b3-h3">Chọn Máy chủ GTA 5 RP</h3>
+                        <p id="b3-p">Có một số máy chủ trò chơi trong dự án của chúng tôi. Chọn một trong những phù hợp
+                            với bạn..
                         </p>
-                        <button>Chơi ngay</button>
+                        <button id="b3-btn">Chơi ngay</button>
 
                     </div>
 
                 </div>
             </div>
 
+            <div class="howtorp">
+                <div class="box-1">
+                    <h2>ROLEPLAY LÀ GÌ?</h2>
+                    <p>Các chế độ trò chơi. Những người chơi nhảy vào một trong các máy chủ RP của chúng tôi thậm chí
+                        còn đắm chìm hơn vào trò chơi khi họ ở dạng một NPC bình thường, có thể được tùy chỉnh theo một
+                        số cách khác nhau. Các hành động của người chơi tạo ra một tình huống nhập vai, hành động các
+                        nhân vật của chính họ, được hướng dẫn bởi bản chất của vai trò của họ trong thực tế trò chơi.
+                    </p>
+                </div>
+                <div class="box-2">
+                    <h2>MAJESTIC V LÀ....</h2>
+                    <p>Máy chủ được phát triển trên nền tảng RAGE Multiplayer. Bạn có thể đóng vai được chọn trong vũ
+                        trụ ảo, tuân theo các quy tắc của cuộc sống thực. Trở thành chính trị gia, xã hội đen, doanh
+                        nhân, tài xế taxi, công nhân nhà máy, cảnh sát, nói chung - bất kỳ ai.</p>
+                </div>
+            </div>
+
         </div>
+
+        <footer>
+            <div class="andres">
+                <img src="./images/logo.svg" />
+                <h3>MAJESTIC V VIETNAM</h3>
+            </div>
+            <div class="contact">
+                <div>
+                    <h2>Contact</h2>
+                    <p>help@gta5majesticv.com</p>
+                </div>
+                <div>
+                    <h2>Bản quyền</h2>
+                    <p>Majestic RU</p>
+                </div>
+            </div>
+        </footer>
         <script src="./js/main.js"></script>
         <script src="./js/mobile.js"></script>
 
