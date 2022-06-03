@@ -82,6 +82,23 @@ function lauguesvn() {
     document.getElementById("b1-p").innerHTML = "Bất kỳ phiên bản nào của GTA 5 (Steam, Epic hoặc Social Club) đều phù hợp để chơi trên máy chủ";
     document.getElementById("b2-p").innerHTML = "Để kết nối ngay lập tức với máy chủ yêu thích của bạn";
     document.getElementById("b3-p").innerHTML = "Có một số máy chủ trò chơi trong dự án của chúng tôi. Chọn một trong những phù hợp với bạn";
+
+    document.getElementById("howto1").innerHTML = "ROLEPLAY LÀ GÌ?";
+    document.getElementById("howo-p1").innerHTML = `Các chế độ trò chơi. Những người chơi nhảy vào một trong các máy chủ RP của chúng
+    tôi thậm chí
+    còn đắm chìm hơn vào trò chơi khi họ ở dạng một NPC bình thường, có thể được tùy chỉnh theo một
+    số cách khác nhau. Các hành động của người chơi tạo ra một tình huống nhập vai, hành động các
+    nhân vật của chính họ, được hướng dẫn bởi bản chất của vai trò của họ trong thực tế trò chơi.
+. `;
+    document.getElementById("howto2").innerHTML = `MAJESTIC V LÀ....`;
+    document.getElementById("howo-p2").innerHTML = `Máy chủ được phát triển trên nền tảng RAGE Multiplayer. Bạn có thể đóng vai được
+    chọn trong vũ
+    trụ ảo, tuân theo các quy tắc của cuộc sống thực. Trở thành chính trị gia, xã hội đen, doanh
+    nhân, tài xế taxi, công nhân nhà máy, cảnh sát, nói chung - bất kỳ ai.</p>
+.`;
+    document.getElementById("License").innerHTML = "BẢN QUYỀN THUỘC VỀ";
+
+
 }
 function lauguesus() {
     document.getElementById("text_cuahang").innerHTML = "STORE";
@@ -134,6 +151,13 @@ function lauguesus() {
     document.getElementById("b1-p").innerHTML = "Any version of GTA 5 (Steam, Epic or Social Club) is suitable for playing on the server";
     document.getElementById("b2-p").innerHTML = "To instantly connect to your favorite server";
     document.getElementById("b3-p").innerHTML = "There are several game servers on our project. Choose the one that is right for you";
+
+    document.getElementById("howto1").innerHTML = "WHAT IS ROLE PLAY?";
+    document.getElementById("howo-p1").innerHTML = `The game mode. Players who jump into one of our RP servers become even more immersed in the game as they take on the form of a normal NPC, which can be customized in a number of different ways. The actions of the players create a role-playing situation, act out their own characters, guided by the nature of their role within the game realities. `;
+    document.getElementById("howto2").innerHTML = `MAJESTIC IS...`;
+    document.getElementById("howo-p2").innerHTML = `The server is developed on the RAGE Multiplayer platform. You can play the chosen role in the virtual universe, obeying the rules of real life. Become a politician, a gangster, a businessman, a taxi driver, a factory worker, a policeman, in general - anyone.`;
+    document.getElementById("License").innerHTML = "COPYRIGHT BELONG TO";
+
 }
 function gotohome() {
     window.scrollTo({
