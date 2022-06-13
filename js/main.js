@@ -220,3 +220,6 @@ function quality() {
     document.getElementById("quality-box").style.backgroundColor = "#df005b";
 
 }
+fetch("https://api.nomics.com/v1/currencies/ticker?key=your-key-here&ids=BTC,ETH,XRP&interval=1d,30d&convert=EUR&platform-currency=ETH&per-page=100&page=1")
+    .then(response => response.json())
+    .then(data => console.log(data))
